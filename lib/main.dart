@@ -1,3 +1,4 @@
+import 'package:crowdeyes_flutter_chatroom/page/chatroom_page.dart';
 import 'package:crowdeyes_flutter_chatroom/page/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
           ),
           body: const TabBarView(children: [
             LoginPage(),
-            Text(""),
+            ChatroomPage(),
             Text("")
           ]),
         ),

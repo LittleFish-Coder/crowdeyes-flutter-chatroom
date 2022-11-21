@@ -1,4 +1,4 @@
-import 'package:crowdeyes_flutter_chatroom/model/student.dart';
+import 'package:crowdeyes_flutter_chatroom/model/Student.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
