@@ -1,3 +1,4 @@
+import 'package:crowdeyes_flutter_chatroom/page/chatapi_page.dart';
 import 'package:crowdeyes_flutter_chatroom/page/chatroom_page.dart';
 import 'package:crowdeyes_flutter_chatroom/page/login_page.dart';
 import 'package:flutter/material.dart';
@@ -33,14 +34,14 @@ class MyApp extends StatelessWidget {
             bottom: const TabBar(tabs: [
               Text("Register"),
               Text("Chatroom"),
-              Text("Author"),
+              Text("ChatAPI"),
             ]),
             title: const Text("NCKU CrowdEyes"),
           ),
           body: const TabBarView(children: [
             LoginPage(),
             ChatroomPage(),
-            Text("")
+            ChatAPIPage(),
           ]),
         ),
       ),
